@@ -10,7 +10,7 @@ import com.poc.olingo.ta.factory.AccountsODataJPAServiceFactory;
 @Path("/")
 public class AccountsRootLocator extends ODataRootLocator {
     private AccountsODataJPAServiceFactory serviceFactory;
-    public AccountsRootLocator(AcountsODataJPAServiceFactory serviceFactory) {
+    public AccountsRootLocator(AccountsODataJPAServiceFactory serviceFactory) {
         this.serviceFactory = serviceFactory;
     }
  
