@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 import com.poc.olingo.ta.EntityManagerFilter;
 
 @Component
-public class CarsODataJPAServiceFactory extends ODataJPAServiceFactory {
+public class AccountsODataJPAServiceFactory extends ODataJPAServiceFactory {
     // other methods omitted...
  
     @Override
