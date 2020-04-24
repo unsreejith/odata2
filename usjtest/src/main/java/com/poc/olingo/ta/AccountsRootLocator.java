@@ -5,12 +5,12 @@ import javax.ws.rs.Path;
 import org.apache.olingo.odata2.api.ODataServiceFactory;
 import org.apache.olingo.odata2.core.rest.ODataRootLocator;
 
-import com.poc.olingo.ta.factory.CarsODataJPAServiceFactory;
+import com.poc.olingo.ta.factory.AccountsODataJPAServiceFactory;
 
 @Path("/")
-public class CarsRootLocator extends ODataRootLocator {
-    private CarsODataJPAServiceFactory serviceFactory;
-    public CarsRootLocator(CarsODataJPAServiceFactory serviceFactory) {
+public class AccountsRootLocator extends ODataRootLocator {
+    private AccountsODataJPAServiceFactory serviceFactory;
+    public AccountsRootLocator(AcountsODataJPAServiceFactory serviceFactory) {
         this.serviceFactory = serviceFactory;
     }
  
